@@ -1,0 +1,45 @@
+body {
+    background-color: #F5EFE6;
+}
+
+#hero {
+    height: 100vh;
+}
+
+.baner {
+    background-color: #6D94C5;
+    height: 30vh;
+    order: -1;
+}
+
+.hero-content {
+    width: fill;
+    height: 50vh;
+    position: relative;
+    top: -270px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.profile-pic > img {
+    background-color: rgb(213, 114, 114);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content > h1 {
+    
+}
+
+.hero-content > p {
+    
+}
